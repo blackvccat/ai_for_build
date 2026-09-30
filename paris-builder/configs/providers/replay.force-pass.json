@@ -1,0 +1,14 @@
+{
+  "provider_id": "offline-replay-fixture-force-pass",
+  "base_url": "offline://no-network",
+  "model": "offline-replay-fixture",
+  "vision": true,
+  "offline_replay": true,
+  "force_pass": true,
+  "api_key_env": "NONE_REQUIRED",
+  "max_calls": 5000,
+  "max_total_tokens": 100000000,
+  "max_output_tokens": 6000,
+  "timeout_seconds": 5,
+  "verification_scope": "OFFLINE TEST FIXTURE with force_pass: it exists only to drive the pipeline's advance path end to end. Its verdicts are not design quality evidence and must never be reported as a gate that a real model passed."
+}

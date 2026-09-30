@@ -1,0 +1,7 @@
+{
+  "action": "user_requested_permanent_removal",
+  "scope": "paris-builder/archive/PAR-001",
+  "files_removed": 781,
+  "bytes_removed": 249156667,
+  "source_assets_modified": false
+}

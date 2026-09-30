@@ -1,0 +1,262 @@
+{
+  "gates": {
+    "G0": "PASS",
+    "G1": "PASS"
+  },
+  "generator_version": "0.1.0",
+  "overall_density_percent": 14.5839,
+  "pair_count": 14,
+  "samples_with_create": 7,
+  "schema_version": "0.1.0",
+  "top_base_blocks": [
+    {
+      "count": 10267787,
+      "name": "minecraft:air"
+    },
+    {
+      "count": 827174,
+      "name": "minecraft:white_wool"
+    },
+    {
+      "count": 58566,
+      "name": "minecraft:smooth_sandstone"
+    },
+    {
+      "count": 49149,
+      "name": "minecraft:sandstone_wall"
+    },
+    {
+      "count": 38177,
+      "name": "minecraft:sandstone"
+    },
+    {
+      "count": 35686,
+      "name": "minecraft:cut_sandstone"
+    },
+    {
+      "count": 34460,
+      "name": "minecraft:pink_wool"
+    },
+    {
+      "count": 26905,
+      "name": "minecraft:deepslate"
+    },
+    {
+      "count": 24477,
+      "name": "minecraft:stripped_birch_wood"
+    },
+    {
+      "count": 21294,
+      "name": "minecraft:andesite"
+    },
+    {
+      "count": 21175,
+      "name": "minecraft:sand"
+    },
+    {
+      "count": 21152,
+      "name": "minecraft:iron_door"
+    },
+    {
+      "count": 20386,
+      "name": "minecraft:deepslate_bricks"
+    },
+    {
+      "count": 16769,
+      "name": "minecraft:tuff"
+    },
+    {
+      "count": 16690,
+      "name": "minecraft:stone_bricks"
+    },
+    {
+      "count": 15839,
+      "name": "minecraft:white_concrete"
+    },
+    {
+      "count": 15357,
+      "name": "minecraft:polished_deepslate"
+    },
+    {
+      "count": 14908,
+      "name": "minecraft:stone"
+    },
+    {
+      "count": 14736,
+      "name": "minecraft:mushroom_stem"
+    },
+    {
+      "count": 13825,
+      "name": "minecraft:white_stained_glass_pane"
+    },
+    {
+      "count": 13131,
+      "name": "minecraft:diorite_wall"
+    },
+    {
+      "count": 12559,
+      "name": "minecraft:deepslate_tiles"
+    },
+    {
+      "count": 11993,
+      "name": "minecraft:chain"
+    },
+    {
+      "count": 11693,
+      "name": "minecraft:cobbled_deepslate"
+    },
+    {
+      "count": 11377,
+      "name": "minecraft:bone_block"
+    },
+    {
+      "count": 10842,
+      "name": "minecraft:light_gray_wool"
+    },
+    {
+      "count": 10388,
+      "name": "minecraft:gray_wool"
+    },
+    {
+      "count": 10386,
+      "name": "minecraft:iron_trapdoor"
+    },
+    {
+      "count": 9488,
+      "name": "minecraft:smooth_stone_slab"
+    },
+    {
+      "count": 8671,
+      "name": "minecraft:polished_diorite"
+    }
+  ],
+  "top_surface_base_blocks": [
+    {
+      "count": 69084,
+      "name": "minecraft:white_wool"
+    },
+    {
+      "count": 28974,
+      "name": "minecraft:sandstone_wall"
+    },
+    {
+      "count": 18476,
+      "name": "minecraft:smooth_sandstone"
+    },
+    {
+      "count": 13404,
+      "name": "minecraft:stone_bricks"
+    },
+    {
+      "count": 10781,
+      "name": "minecraft:andesite"
+    },
+    {
+      "count": 9358,
+      "name": "minecraft:white_concrete"
+    },
+    {
+      "count": 9033,
+      "name": "minecraft:smooth_stone_slab"
+    },
+    {
+      "count": 8354,
+      "name": "minecraft:tuff"
+    },
+    {
+      "count": 8203,
+      "name": "minecraft:iron_door"
+    },
+    {
+      "count": 7992,
+      "name": "minecraft:deepslate_brick_slab"
+    },
+    {
+      "count": 7842,
+      "name": "minecraft:chain"
+    },
+    {
+      "count": 7195,
+      "name": "minecraft:deepslate_bricks"
+    },
+    {
+      "count": 6604,
+      "name": "minecraft:lever"
+    },
+    {
+      "count": 6499,
+      "name": "minecraft:cut_sandstone"
+    },
+    {
+      "count": 5891,
+      "name": "minecraft:deepslate_brick_stairs"
+    },
+    {
+      "count": 5652,
+      "name": "minecraft:diorite_wall"
+    },
+    {
+      "count": 5624,
+      "name": "minecraft:andesite_slab"
+    },
+    {
+      "count": 5524,
+      "name": "minecraft:oak_trapdoor"
+    },
+    {
+      "count": 5366,
+      "name": "minecraft:birch_trapdoor"
+    },
+    {
+      "count": 5365,
+      "name": "minecraft:deepslate_tile_slab"
+    },
+    {
+      "count": 5261,
+      "name": "minecraft:tripwire_hook"
+    },
+    {
+      "count": 5105,
+      "name": "minecraft:smooth_stone"
+    },
+    {
+      "count": 4903,
+      "name": "minecraft:polished_deepslate"
+    },
+    {
+      "count": 4837,
+      "name": "minecraft:stripped_birch_wood"
+    },
+    {
+      "count": 4616,
+      "name": "minecraft:lodestone"
+    },
+    {
+      "count": 4426,
+      "name": "minecraft:sandstone"
+    },
+    {
+      "count": 4368,
+      "name": "minecraft:bone_block"
+    },
+    {
+      "count": 4358,
+      "name": "minecraft:iron_trapdoor"
+    },
+    {
+      "count": 4219,
+      "name": "minecraft:polished_deepslate_slab"
+    },
+    {
+      "count": 4073,
+      "name": "minecraft:stone_slab"
+    }
+  ],
+  "total_block_entities": 4755,
+  "total_nonair": 1753113,
+  "total_orthographic_surface_blocks": 422209,
+  "total_voxels": 12020900,
+  "unique_base_blocks": 394,
+  "unique_states": 2136,
+  "validation_pass_count": 14
+}

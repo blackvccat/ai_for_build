@@ -1,0 +1,23 @@
+{
+  "provider_id": "deepseek-v4.1-flash",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "vision": true,
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "keychain": {
+    "service": "codex-deepseek",
+    "account": "api-key"
+  },
+  "max_calls": 24,
+  "max_total_tokens": 100000,
+  "max_output_tokens": 6000,
+  "timeout_seconds": 120,
+  "request_options": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "credential_probe": "MODELS_ENDPOINT_VERIFIED",
+  "verification_scope": "Connectivity does not prove task quality. Live independent runs recorded separately.",
+  "score_profile": "aggregate"
+}

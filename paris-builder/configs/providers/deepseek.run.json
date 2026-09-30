@@ -1,0 +1,25 @@
+{
+  "provider_id": "deepseek-v4.1-flash-run-budget",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "vision": true,
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "keychain": {
+    "service": "codex-deepseek",
+    "account": "api-key"
+  },
+  "max_calls": 160,
+  "max_total_tokens": 1200000,
+  "max_output_tokens": 6000,
+  "timeout_seconds": 120,
+  "request_options": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "credential_probe": "MODELS_ENDPOINT_VERIFIED",
+  "verification_scope": "Per-run budget override for multi-candidate gated runs; same endpoint and model as configs/providers/deepseek.json.",
+  "note": "Per-run budget for the full live stage chain (research through delivery) with the aggregate framework scoring profile. Raised budgets only; does not imply task quality.",
+  "score_profile": "aggregate",
+  "max_stage_calls": 24
+}

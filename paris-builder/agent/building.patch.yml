@@ -1,0 +1,24 @@
+- id: persistent-bash
+  disabled: true
+- id: persistent-pwsh
+  disabled: true
+- id: terminal-bash
+  disabled: true
+- id: terminal-pwsh
+  disabled: true
+- id: pty
+  disabled: true
+- id: subprocess
+  disabled: true
+- id: sandbox-policy
+  disabled: true
+- id: sandbox
+  disabled: true
+- id: jobs
+  disabled: true
+- id: tools
+  config:
+    mode: native
+- insert:
+    - id: paris-building-tools
+      name: __BUILDING_TOOLS_MODULE__

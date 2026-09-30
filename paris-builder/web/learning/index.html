@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>巴黎建筑学习工坊 · Atelier Paris</title><link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/design.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#overview"><svg viewBox="0 0 36 44" aria-hidden="true"><path d="M4 40V20a14 14 0 0 1 28 0v20M12 40V21a6 6 0 0 1 12 0v19M1 40h34M1 14h34"/></svg><span>ATELIER<span class="brand-sub">PARIS / 建筑学习工坊</span></span></a>
+  <div class="workspace-label">WORKSPACE <span>01</span></div>
+  <nav aria-label="主要导航">
+    <a href="#overview" data-page="overview"><span>◫</span>学习总览</a>
+    <a href="#library" data-page="library"><span>▦</span>分层知识库 <b id="nav-count">—</b></a>
+    <a href="#sources" data-page="sources"><span>▧</span>源素材档案</a>
+    <a href="/reference-decomposition/"><span>▤</span>参考建筑拆解</a>
+    <a href="#studio" data-page="studio"><span>✧</span>设计研究台</a>
+    <a href="#audit" data-page="audit"><span>◎</span>验证与边界</a>
+  </nav>
+  <div class="side-note"><span class="eyebrow">LEARN · RETRIEVE · CREATE</span><p>让每一次设计，<br>都有可以追溯的依据。</p><small>巴黎风格 · Minecraft 建筑</small></div>
+  <button class="provider-button" id="provider-open"><i id="provider-dot"></i><span id="provider-label">本地知识引擎</span><span>↗</span></button>
+</aside>
+<main>
+  <header class="topbar"><div><span class="breadcrumb">建筑学习系统</span><span class="slash">/</span><span id="page-name">学习总览</span></div><div class="top-status"><i></i>本地向量检索 <span class="version">v0.1</span></div></header>
+  <div id="global-error" class="error" role="alert" hidden></div>
+  <div id="content"><div class="loading">正在读取知识库与素材证据…</div></div>
+</main>
+<div id="drawer-backdrop" hidden></div><aside id="drawer" class="drawer" hidden aria-label="知识详情"><div id="drawer-content"></div></aside>
+<dialog id="provider-dialog"><form id="provider-form"><div class="dialog-head"><div><span class="eyebrow">MODEL CONNECTION</span><h2>连接 DeepSeek</h2></div><button type="button" class="icon-button" id="provider-close" aria-label="关闭">×</button></div><p>用于知识解释和设计研究。密钥在本机以 Windows 用户级加密保存，重启后自动恢复；页面与运行报告不保存明文。</p><label for="api-key">API Key</label><input id="api-key" type="password" autocomplete="off" placeholder="输入 DeepSeek API Key" required><div id="provider-result" role="status"></div><button type="submit" class="primary">验证并连接 →</button></form></dialog>
+<div id="toast" role="status" hidden></div>
+<script src="/static/app.js" defer></script>
+<script src="/static/workflow.js" defer></script>
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "provider_id":"replace-with-model-identity",
+  "base_url":"https://YOUR_PROVIDER/v1",
+  "model":"YOUR_MULTIMODAL_MODEL_ID",
+  "vision":true,
+  "api_key_env":"ARCHITECT_MODEL_API_KEY",
+  "max_calls":24,
+  "max_total_tokens":100000,
+  "max_output_tokens":6000,
+  "timeout_seconds":120,
+  "request_options":{},
+  "status":"EXAMPLE_NOT_TESTED"
+}

@@ -1,0 +1,13 @@
+{
+  "provider_id": "offline-replay-fixture",
+  "base_url": "offline://no-network",
+  "model": "offline-replay-fixture",
+  "vision": true,
+  "offline_replay": true,
+  "api_key_env": "NONE_REQUIRED",
+  "max_calls": 5000,
+  "max_total_tokens": 100000000,
+  "max_output_tokens": 6000,
+  "timeout_seconds": 5,
+  "verification_scope": "OFFLINE TEST FIXTURE. Drives every stage gate with scripted answers to test the pipeline wiring; it is never live model evidence and never design quality evidence."
+}

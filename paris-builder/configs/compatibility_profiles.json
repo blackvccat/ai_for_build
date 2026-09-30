@@ -1,0 +1,53 @@
+{
+  "faithful_1_21_1": {
+    "data_version": 3955,
+    "schematic_version": 2,
+    "allowed_namespaces": ["minecraft", "create"],
+    "required_tools": {
+      "axiom": "6.0.5",
+      "create": "TO_BE_LOCKED",
+      "resource_pack": "TO_BE_LOCKED"
+    },
+    "unknown_namespace_policy": "fail",
+    "block_entity_policy": "preserve_visual_whitelist_and_sanitize_behavior"
+  },
+  "vanilla_1_21_1": {
+    "data_version": 3955,
+    "schematic_version": 2,
+    "allowed_namespaces": ["minecraft"],
+    "block_replacements": {
+      "create:cut_calcite_wall": "minecraft:diorite_wall",
+      "create:cut_diorite_wall": "minecraft:diorite_wall",
+      "create:cut_diorite_slab": "minecraft:polished_diorite_slab"
+    },
+    "unknown_namespace_policy": "fail",
+    "block_entity_policy": "strip_unknown_attachments_inventory_bees_and_spawn_data"
+  },
+  "safety_defaults": {
+    "blocked_base_blocks": [
+      "minecraft:command_block",
+      "minecraft:chain_command_block",
+      "minecraft:repeating_command_block",
+      "minecraft:structure_block",
+      "minecraft:jigsaw",
+      "minecraft:spawner",
+      "minecraft:tnt",
+      "minecraft:fire",
+      "minecraft:soul_fire",
+      "minecraft:nether_portal",
+      "minecraft:end_portal",
+      "minecraft:water",
+      "minecraft:lava"
+    ],
+    "behavior_nbt_keys": [
+      "Items",
+      "Bees",
+      "bees",
+      "LootTable",
+      "SpawnData",
+      "SpawnPotentials",
+      "Command"
+    ]
+  }
+}
+

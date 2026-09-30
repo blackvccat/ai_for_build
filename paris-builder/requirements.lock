@@ -1,0 +1,4 @@
+nbtlib==1.12.1
+numpy==2.0.2
+Pillow==11.3.0
+deepseek-harness-sdk==0.1.5rc1

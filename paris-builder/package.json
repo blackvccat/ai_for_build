@@ -1,0 +1,8 @@
+{
+  "name": "paris-builder-validation",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Independent Minecraft registry and schematic validation",
+  "scripts": {"validate": "node tools/validate_schematic.cjs"},
+  "dependencies": {"prismarine-schematic": "1.3.0", "minecraft-data": "3.105.0", "prismarine-nbt": "2.7.0"}
+}

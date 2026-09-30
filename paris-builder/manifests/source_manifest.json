@@ -1,0 +1,3847 @@
+{
+  "entries": [
+    {
+      "building_id": "monumental-01",
+      "display_name": "巴黎建筑素材1",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-01/bottom.png",
+        "overview": "paris-builder/previews/monumental-01/overview.png",
+        "top": "paris-builder/previews/monumental-01/top.png",
+        "x_max": "paris-builder/previews/monumental-01/x_max.png",
+        "x_min": "paris-builder/previews/monumental-01/x_min.png",
+        "z_max": "paris-builder/previews/monumental-01/z_max.png",
+        "z_min": "paris-builder/previews/monumental-01/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 614,
+        "block_entity_types": {
+          "minecraft:beehive": 427,
+          "minecraft:brewing_stand": 28,
+          "minecraft:furnace": 50,
+          "minecraft:lectern": 45,
+          "minecraft:shulker_box": 64
+        },
+        "create_block_count": 578,
+        "create_states": [
+          "create:cut_calcite_wall[east=low,north=low,south=tall,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=none,south=tall,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=tall]"
+        ],
+        "data_version": 3955,
+        "density_percent": 20.1741,
+        "dimensions": {
+          "height": 82,
+          "length": 125,
+          "volume": 1947500,
+          "width": 190
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789631277388,
+          "Name": "巴黎建筑素材1"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "Items": 78,
+            "bees": 427
+          },
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 392891,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 46403,
+        "palette_max": 556,
+        "palette_state_count": 556,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 1554609,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 251008,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 33524,
+            "name": "minecraft:pink_wool"
+          },
+          {
+            "count": 9359,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 7142,
+            "name": "minecraft:light_blue_wool"
+          },
+          {
+            "count": 5782,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 5667,
+            "name": "minecraft:sand"
+          },
+          {
+            "count": 4689,
+            "name": "minecraft:gravel"
+          },
+          {
+            "count": 4619,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 4064,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 3459,
+            "name": "minecraft:stripped_oak_wood"
+          },
+          {
+            "count": 3392,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 3335,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 3311,
+            "name": "minecraft:cobbled_deepslate"
+          },
+          {
+            "count": 3239,
+            "name": "minecraft:gray_concrete_powder"
+          },
+          {
+            "count": 2548,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 2249,
+            "name": "minecraft:polished_deepslate"
+          },
+          {
+            "count": 1819,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 1781,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 1725,
+            "name": "minecraft:stone_bricks"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 12027,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 5001,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1678,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1328,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 1215,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 1041,
+            "name": "minecraft:smooth_sandstone_slab"
+          },
+          {
+            "count": 1036,
+            "name": "minecraft:oak_button"
+          },
+          {
+            "count": 1017,
+            "name": "minecraft:sand"
+          },
+          {
+            "count": 980,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 940,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 887,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 835,
+            "name": "minecraft:gravel"
+          },
+          {
+            "count": 829,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 735,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 734,
+            "name": "minecraft:cobbled_deepslate_wall"
+          },
+          {
+            "count": 680,
+            "name": "minecraft:diorite_slab"
+          },
+          {
+            "count": 601,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 560,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 541,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 530,
+            "name": "minecraft:stone_brick_slab"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "b90d200d947e4f50014c5443e887723c32e32e14c97f9bef52f1996d66983d15"
+      },
+      "source": {
+        "png": {
+          "bytes": 1948158,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材1.png",
+          "sha256": "a8c651cc307e64843db2515c00cb139040acbd1fe2b14130bd13f72af921bfa2"
+        },
+        "schem": {
+          "bytes": 67900,
+          "path": "巴黎建筑素材/巴黎建筑素材1.schem",
+          "sha256": "2b9e127f0f0c69f0d197a278b9b848dfd52265b1ca530f2bd3fbea1c55fa7b64"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-02",
+      "display_name": "巴黎建筑素材2",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-02/bottom.png",
+        "overview": "paris-builder/previews/monumental-02/overview.png",
+        "top": "paris-builder/previews/monumental-02/top.png",
+        "x_max": "paris-builder/previews/monumental-02/x_max.png",
+        "x_min": "paris-builder/previews/monumental-02/x_min.png",
+        "z_max": "paris-builder/previews/monumental-02/z_max.png",
+        "z_min": "paris-builder/previews/monumental-02/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 9,
+        "block_entity_types": {
+          "minecraft:beehive": 1,
+          "minecraft:lectern": 8
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 14.1689,
+        "dimensions": {
+          "height": 61,
+          "length": 96,
+          "volume": 345504,
+          "width": 59
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789631521544,
+          "Name": "巴黎建筑素材2"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "bees": 1
+          },
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 48954,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 23712,
+        "palette_max": 431,
+        "palette_state_count": 431,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 296550,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 10824,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 7856,
+            "name": "minecraft:polished_diorite"
+          },
+          {
+            "count": 2191,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 1884,
+            "name": "minecraft:black_stained_glass"
+          },
+          {
+            "count": 1461,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1254,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 1212,
+            "name": "minecraft:quartz_bricks"
+          },
+          {
+            "count": 1131,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 1046,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 931,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 905,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 878,
+            "name": "minecraft:smooth_quartz"
+          },
+          {
+            "count": 697,
+            "name": "minecraft:cyan_stained_glass"
+          },
+          {
+            "count": 678,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 677,
+            "name": "minecraft:diorite"
+          },
+          {
+            "count": 645,
+            "name": "minecraft:gray_concrete"
+          },
+          {
+            "count": 640,
+            "name": "minecraft:quartz_block"
+          },
+          {
+            "count": 622,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 582,
+            "name": "minecraft:cut_sandstone"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 5581,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 3713,
+            "name": "minecraft:polished_diorite"
+          },
+          {
+            "count": 1064,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 955,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 891,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 745,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 513,
+            "name": "minecraft:dead_brain_coral_wall_fan"
+          },
+          {
+            "count": 476,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 470,
+            "name": "minecraft:snow"
+          },
+          {
+            "count": 408,
+            "name": "minecraft:light_gray_concrete"
+          },
+          {
+            "count": 396,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 381,
+            "name": "minecraft:waxed_weathered_copper"
+          },
+          {
+            "count": 356,
+            "name": "minecraft:polished_blackstone_pressure_plate"
+          },
+          {
+            "count": 337,
+            "name": "minecraft:polished_diorite_slab"
+          },
+          {
+            "count": 275,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 265,
+            "name": "minecraft:dead_brain_coral_block"
+          },
+          {
+            "count": 256,
+            "name": "minecraft:quartz_bricks"
+          },
+          {
+            "count": 256,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 252,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 248,
+            "name": "minecraft:birch_fence_gate"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "b7e3169c2f2b4c9281aac537d5d9270f778b8de220fd0d788fcf536ec845d394"
+      },
+      "source": {
+        "png": {
+          "bytes": 2402814,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材2.png",
+          "sha256": "2a1ab857213fe5bd71c78b7c32828cb576f4468a95159fe9300cffac6a603705"
+        },
+        "schem": {
+          "bytes": 26414,
+          "path": "巴黎建筑素材/巴黎建筑素材2.schem",
+          "sha256": "79936b90fa660bd3cd085563be38363275ec6f8c1210f30e2c4d9c18e5ce301a"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-03",
+      "display_name": "巴黎建筑素材3",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-03/bottom.png",
+        "overview": "paris-builder/previews/monumental-03/overview.png",
+        "top": "paris-builder/previews/monumental-03/top.png",
+        "x_max": "paris-builder/previews/monumental-03/x_max.png",
+        "x_min": "paris-builder/previews/monumental-03/x_min.png",
+        "z_max": "paris-builder/previews/monumental-03/z_max.png",
+        "z_min": "paris-builder/previews/monumental-03/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 2954,
+        "block_entity_types": {
+          "minecraft:beehive": 168,
+          "minecraft:blast_furnace": 2124,
+          "minecraft:brewing_stand": 40,
+          "minecraft:furnace": 610,
+          "minecraft:mob_spawner": 12
+        },
+        "create_block_count": 2580,
+        "create_states": [
+          "create:cut_calcite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=low,south=tall,up=true,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=low,north=tall,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=low,south=tall,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=tall,north=none,south=low,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=low,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_diorite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_diorite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_diorite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_diorite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_diorite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_diorite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_diorite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_diorite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_diorite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_diorite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_diorite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_diorite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=tall]"
+        ],
+        "data_version": 3955,
+        "density_percent": 5.1271,
+        "dimensions": {
+          "height": 53,
+          "length": 244,
+          "volume": 4060648,
+          "width": 314
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789631742797,
+          "Name": "巴黎建筑素材3"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "Items": 2774,
+            "SpawnData": 12,
+            "SpawnPotentials": 12,
+            "bees": 168
+          },
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 208193,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 56540,
+        "palette_max": 638,
+        "palette_state_count": 638,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": [
+            "minecraft:spawner"
+          ]
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 3852455,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 91832,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 10210,
+            "name": "minecraft:light_gray_wool"
+          },
+          {
+            "count": 8074,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 5286,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 4804,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 4551,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 3990,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 3842,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 2827,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 2680,
+            "name": "minecraft:deepslate_tile_slab"
+          },
+          {
+            "count": 2622,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 2456,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 2262,
+            "name": "minecraft:mud_brick_wall"
+          },
+          {
+            "count": 2247,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 2212,
+            "name": "create:cut_calcite_wall"
+          },
+          {
+            "count": 2155,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 2124,
+            "name": "minecraft:blast_furnace"
+          },
+          {
+            "count": 2097,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 1762,
+            "name": "minecraft:cobbled_deepslate"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 13991,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 2553,
+            "name": "minecraft:deepslate_tile_slab"
+          },
+          {
+            "count": 2494,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 2339,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 2320,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 2290,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 2092,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 1493,
+            "name": "minecraft:stone_brick_slab"
+          },
+          {
+            "count": 1429,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 1412,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1324,
+            "name": "minecraft:cobblestone_slab"
+          },
+          {
+            "count": 1222,
+            "name": "minecraft:cobbled_deepslate_slab"
+          },
+          {
+            "count": 1168,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 1050,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 973,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 957,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 920,
+            "name": "create:cut_calcite_wall"
+          },
+          {
+            "count": 747,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 664,
+            "name": "minecraft:piston_head"
+          },
+          {
+            "count": 660,
+            "name": "minecraft:iron_bars"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "8190796751c4246f5dbe46e9f7afccf74c2f1bf13c9f5e0eeac51d03312ecbfd"
+      },
+      "source": {
+        "png": {
+          "bytes": 2957847,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材3.png",
+          "sha256": "d7cea76c97845423e648dc9c3ce208de17f8ed5a0f7029d80ca3dc7e9c4b9a92"
+        },
+        "schem": {
+          "bytes": 99413,
+          "path": "巴黎建筑素材/巴黎建筑素材3.schem",
+          "sha256": "c33e5c9759ba75746ccbdffe66165e6f0aa1b8f991c41ef4b76b6aabde6752b4"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-04",
+      "display_name": "巴黎建筑素材4",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-04/bottom.png",
+        "overview": "paris-builder/previews/monumental-04/overview.png",
+        "top": "paris-builder/previews/monumental-04/top.png",
+        "x_max": "paris-builder/previews/monumental-04/x_max.png",
+        "x_min": "paris-builder/previews/monumental-04/x_min.png",
+        "z_max": "paris-builder/previews/monumental-04/z_max.png",
+        "z_min": "paris-builder/previews/monumental-04/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 154,
+        "block_entity_types": {
+          "minecraft:blast_furnace": 4,
+          "minecraft:brewing_stand": 8,
+          "minecraft:campfire": 8,
+          "minecraft:dispenser": 56,
+          "minecraft:furnace": 36,
+          "minecraft:mob_spawner": 2,
+          "minecraft:shulker_box": 16,
+          "minecraft:sign": 24
+        },
+        "create_block_count": 280,
+        "create_states": [
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=none]"
+        ],
+        "data_version": 3955,
+        "density_percent": 8.6815,
+        "dimensions": {
+          "height": 36,
+          "length": 136,
+          "volume": 631584,
+          "width": 129
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789631911409,
+          "Name": "巴黎建筑素材4"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "Items": 112,
+            "SpawnData": 2,
+            "SpawnPotentials": 2
+          },
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 54831,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 21400,
+        "palette_max": 573,
+        "palette_state_count": 573,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": [
+            "minecraft:spawner"
+          ]
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 576753,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 9763,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 5261,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 2600,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 2548,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 2486,
+            "name": "minecraft:deepslate_tile_slab"
+          },
+          {
+            "count": 1642,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 1496,
+            "name": "minecraft:mud"
+          },
+          {
+            "count": 1470,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1415,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 1294,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 1032,
+            "name": "minecraft:azalea_leaves"
+          },
+          {
+            "count": 879,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 863,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 839,
+            "name": "minecraft:birch_planks"
+          },
+          {
+            "count": 730,
+            "name": "minecraft:smooth_sandstone_slab"
+          },
+          {
+            "count": 672,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 591,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 566,
+            "name": "minecraft:light_gray_concrete_powder"
+          },
+          {
+            "count": 560,
+            "name": "minecraft:dark_oak_trapdoor"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 2238,
+            "name": "minecraft:deepslate_tile_slab"
+          },
+          {
+            "count": 2202,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1230,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 1143,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 692,
+            "name": "minecraft:azalea_leaves"
+          },
+          {
+            "count": 667,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 570,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 549,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 544,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 523,
+            "name": "minecraft:cobblestone_slab"
+          },
+          {
+            "count": 522,
+            "name": "minecraft:smooth_sandstone_slab"
+          },
+          {
+            "count": 518,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 514,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 478,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 432,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 424,
+            "name": "minecraft:stone_brick_slab"
+          },
+          {
+            "count": 394,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 347,
+            "name": "minecraft:dead_horn_coral_wall_fan"
+          },
+          {
+            "count": 306,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 286,
+            "name": "minecraft:smooth_sandstone_stairs"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "b2e41771d68a165cd0011a432c1a8e2f63d2e1b48e72f68a65180603a64a9377"
+      },
+      "source": {
+        "png": {
+          "bytes": 2218230,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材4.png",
+          "sha256": "bbc894fef2376dda62fa682c1bc6a3a9b33ebb8cd56c1248f3584fa0f282dcc2"
+        },
+        "schem": {
+          "bytes": 27148,
+          "path": "巴黎建筑素材/巴黎建筑素材4.schem",
+          "sha256": "53b0785f923564aceb815fc8d2f8fd9c3bb65d993161bfa4b01448fac32f0aee"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-05",
+      "display_name": "巴黎建筑素材5",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-05/bottom.png",
+        "overview": "paris-builder/previews/monumental-05/overview.png",
+        "top": "paris-builder/previews/monumental-05/top.png",
+        "x_max": "paris-builder/previews/monumental-05/x_max.png",
+        "x_min": "paris-builder/previews/monumental-05/x_min.png",
+        "z_max": "paris-builder/previews/monumental-05/z_max.png",
+        "z_min": "paris-builder/previews/monumental-05/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 472,
+        "block_entity_types": {
+          "minecraft:beehive": 360,
+          "minecraft:campfire": 22,
+          "minecraft:furnace": 48,
+          "minecraft:lectern": 16,
+          "minecraft:shulker_box": 24,
+          "minecraft:sign": 2
+        },
+        "create_block_count": 104,
+        "create_states": [
+          "create:cut_calcite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]"
+        ],
+        "data_version": 3955,
+        "density_percent": 55.9563,
+        "dimensions": {
+          "height": 44,
+          "length": 172,
+          "volume": 628144,
+          "width": 83
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789631984387,
+          "Name": "巴黎建筑素材5"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "Items": 70,
+            "bees": 360
+          },
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 351486,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 39666,
+        "palette_max": 410,
+        "palette_state_count": 410,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 276658,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 222192,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 11633,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 10683,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 8726,
+            "name": "minecraft:sand"
+          },
+          {
+            "count": 8627,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 6553,
+            "name": "minecraft:gray_wool"
+          },
+          {
+            "count": 6273,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 6093,
+            "name": "minecraft:cobbled_deepslate"
+          },
+          {
+            "count": 6063,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 6017,
+            "name": "minecraft:polished_deepslate"
+          },
+          {
+            "count": 4823,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 4038,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 3481,
+            "name": "minecraft:cobblestone"
+          },
+          {
+            "count": 2663,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 2614,
+            "name": "minecraft:stripped_oak_wood"
+          },
+          {
+            "count": 2373,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 2272,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 2248,
+            "name": "minecraft:acacia_wood"
+          },
+          {
+            "count": 1680,
+            "name": "minecraft:oak_trapdoor"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 13420,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 2927,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1862,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1611,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 1088,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 1049,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 1006,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 854,
+            "name": "minecraft:cut_sandstone_slab"
+          },
+          {
+            "count": 814,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 769,
+            "name": "minecraft:stone_brick_slab"
+          },
+          {
+            "count": 725,
+            "name": "minecraft:cobblestone_slab"
+          },
+          {
+            "count": 722,
+            "name": "minecraft:birch_fence"
+          },
+          {
+            "count": 624,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 536,
+            "name": "minecraft:diorite_slab"
+          },
+          {
+            "count": 532,
+            "name": "minecraft:cobblestone"
+          },
+          {
+            "count": 482,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 463,
+            "name": "minecraft:repeater"
+          },
+          {
+            "count": 456,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 455,
+            "name": "minecraft:polished_andesite"
+          },
+          {
+            "count": 444,
+            "name": "minecraft:birch_fence_gate"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "b748ae7fdf9950347b3bf79d1637cfeb2df31a7ecbf1f1a07ecf5516ef7787db"
+      },
+      "source": {
+        "png": {
+          "bytes": 1846701,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材5.png",
+          "sha256": "5f61b5bb76ae4eef081a4eb009e04c583575f0535cb5831d19de2c06285952fe"
+        },
+        "schem": {
+          "bytes": 70358,
+          "path": "巴黎建筑素材/巴黎建筑素材5.schem",
+          "sha256": "482b1de56bdd2a580c2899e537c44aee2d46fd3b4ccb1f087a7e4aa047e3fd7d"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-06",
+      "display_name": "巴黎建筑素材6",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-06/bottom.png",
+        "overview": "paris-builder/previews/monumental-06/overview.png",
+        "top": "paris-builder/previews/monumental-06/top.png",
+        "x_max": "paris-builder/previews/monumental-06/x_max.png",
+        "x_min": "paris-builder/previews/monumental-06/x_min.png",
+        "z_max": "paris-builder/previews/monumental-06/z_max.png",
+        "z_min": "paris-builder/previews/monumental-06/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 162,
+        "block_entity_types": {
+          "minecraft:barrel": 3,
+          "minecraft:beehive": 80,
+          "minecraft:lectern": 36,
+          "minecraft:shulker_box": 15,
+          "minecraft:sign": 28
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 12.1508,
+        "dimensions": {
+          "height": 48,
+          "length": 92,
+          "volume": 684480,
+          "width": 155
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789632430813,
+          "Name": "巴黎建筑素材6"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "Items": 3,
+            "bees": 80
+          },
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 83170,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 24534,
+        "palette_max": 603,
+        "palette_state_count": 603,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 601310,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 17789,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 10217,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 5185,
+            "name": "minecraft:sand"
+          },
+          {
+            "count": 3380,
+            "name": "minecraft:polished_andesite"
+          },
+          {
+            "count": 3198,
+            "name": "minecraft:quartz_block"
+          },
+          {
+            "count": 3148,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 2890,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 2585,
+            "name": "minecraft:quartz_bricks"
+          },
+          {
+            "count": 2379,
+            "name": "minecraft:dirt"
+          },
+          {
+            "count": 2288,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 1871,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 1846,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 1692,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 1604,
+            "name": "minecraft:stripped_spruce_wood"
+          },
+          {
+            "count": 1378,
+            "name": "minecraft:rooted_dirt"
+          },
+          {
+            "count": 1197,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 914,
+            "name": "minecraft:acacia_wood"
+          },
+          {
+            "count": 881,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 855,
+            "name": "minecraft:white_stained_glass"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 2751,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 2669,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 1390,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1212,
+            "name": "minecraft:polished_andesite"
+          },
+          {
+            "count": 1202,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 1132,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 718,
+            "name": "minecraft:sand"
+          },
+          {
+            "count": 708,
+            "name": "minecraft:dead_horn_coral_wall_fan"
+          },
+          {
+            "count": 650,
+            "name": "minecraft:acacia_wood"
+          },
+          {
+            "count": 586,
+            "name": "minecraft:quartz_bricks"
+          },
+          {
+            "count": 564,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 555,
+            "name": "minecraft:quartz_block"
+          },
+          {
+            "count": 518,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 505,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 504,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 451,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 415,
+            "name": "minecraft:dirt"
+          },
+          {
+            "count": 413,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 402,
+            "name": "minecraft:stripped_spruce_wood"
+          },
+          {
+            "count": 361,
+            "name": "minecraft:bone_block"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "cbbfc50f0e29e91fc0e2396d881e7643758068389bb39226d027d157bf385f49"
+      },
+      "source": {
+        "png": {
+          "bytes": 2425097,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材6.png",
+          "sha256": "deb4facfedc815cec3cb97fd79ad514365008872541fc8780d1277510e15986f"
+        },
+        "schem": {
+          "bytes": 39120,
+          "path": "巴黎建筑素材/巴黎建筑素材6.schem",
+          "sha256": "fdf346e15e5debfb286875c794e8e1282ce7fa94fdbdfd395a3cb4571da3aa35"
+        }
+      }
+    },
+    {
+      "building_id": "monumental-07",
+      "display_name": "巴黎建筑素材7",
+      "previews": {
+        "bottom": "paris-builder/previews/monumental-07/bottom.png",
+        "overview": "paris-builder/previews/monumental-07/overview.png",
+        "top": "paris-builder/previews/monumental-07/top.png",
+        "x_max": "paris-builder/previews/monumental-07/x_max.png",
+        "x_min": "paris-builder/previews/monumental-07/x_min.png",
+        "z_max": "paris-builder/previews/monumental-07/z_max.png",
+        "z_min": "paris-builder/previews/monumental-07/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 9,
+        "block_entity_types": {
+          "minecraft:lectern": 9
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 10.4,
+        "dimensions": {
+          "height": 63,
+          "length": 26,
+          "volume": 335790,
+          "width": 205
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789632576743,
+          "Name": "巴黎建筑素材7"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {},
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 34922,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 23757,
+        "palette_max": 290,
+        "palette_state_count": 290,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": false,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 300868,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 8529,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 5080,
+            "name": "minecraft:polished_deepslate"
+          },
+          {
+            "count": 3700,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1743,
+            "name": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "count": 1655,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 1242,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 896,
+            "name": "minecraft:birch_slab"
+          },
+          {
+            "count": 823,
+            "name": "minecraft:polished_deepslate_wall"
+          },
+          {
+            "count": 805,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 798,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "count": 658,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 656,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 633,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 611,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 570,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 532,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 453,
+            "name": "minecraft:birch_fence_gate"
+          },
+          {
+            "count": 406,
+            "name": "minecraft:polished_blackstone"
+          },
+          {
+            "count": 391,
+            "name": "minecraft:andesite_wall"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 4776,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 3615,
+            "name": "minecraft:polished_deepslate"
+          },
+          {
+            "count": 2184,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1655,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 827,
+            "name": "minecraft:birch_slab"
+          },
+          {
+            "count": 772,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 765,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 663,
+            "name": "minecraft:polished_deepslate_wall"
+          },
+          {
+            "count": 612,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 563,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 542,
+            "name": "minecraft:polished_andesite_slab"
+          },
+          {
+            "count": 505,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 501,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 472,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 422,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "count": 413,
+            "name": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "count": 365,
+            "name": "minecraft:andesite_wall"
+          },
+          {
+            "count": 350,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 323,
+            "name": "minecraft:birch_fence_gate"
+          },
+          {
+            "count": 255,
+            "name": "minecraft:tripwire_hook"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "77fa613c3108885eb1bdb63a1730e3c2638a2a341bac0ec8f5d38a8ae02c4470"
+      },
+      "source": {
+        "png": {
+          "bytes": 1655460,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎建筑素材7.png",
+          "sha256": "2829192f2ef75342d42588b1cc62c27319bdd7a69422e86cbd7babab0f741e81"
+        },
+        "schem": {
+          "bytes": 11060,
+          "path": "巴黎建筑素材/巴黎建筑素材7.schem",
+          "sha256": "8200ba724b6ab60943a2aeee524881e3c2995269b85fc2ddf008509d9b788e00"
+        }
+      }
+    },
+    {
+      "building_id": "residential-01",
+      "display_name": "巴黎民居街区1",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-01/bottom.png",
+        "overview": "paris-builder/previews/residential-01/overview.png",
+        "top": "paris-builder/previews/residential-01/top.png",
+        "x_max": "paris-builder/previews/residential-01/x_max.png",
+        "x_min": "paris-builder/previews/residential-01/x_min.png",
+        "z_max": "paris-builder/previews/residential-01/z_max.png",
+        "z_min": "paris-builder/previews/residential-01/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 49,
+        "block_entity_types": {
+          "minecraft:beehive": 14,
+          "minecraft:lectern": 25,
+          "minecraft:shulker_box": 6,
+          "minecraft:skull": 4
+        },
+        "create_block_count": 180,
+        "create_states": [
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=low,up=true,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]"
+        ],
+        "data_version": 3955,
+        "density_percent": 18.5175,
+        "dimensions": {
+          "height": 50,
+          "length": 84,
+          "volume": 268800,
+          "width": 64
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789580081810,
+          "Name": "巴黎民居街区1"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "bees": 14
+          },
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 49775,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 17144,
+        "palette_max": 492,
+        "palette_state_count": 492,
+        "risks": {
+          "custom_head_count": 4,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 219025,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 3331,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 3131,
+            "name": "minecraft:smooth_basalt"
+          },
+          {
+            "count": 2550,
+            "name": "minecraft:blackstone"
+          },
+          {
+            "count": 2450,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 2423,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 2417,
+            "name": "minecraft:gray_concrete"
+          },
+          {
+            "count": 2364,
+            "name": "minecraft:gray_concrete_powder"
+          },
+          {
+            "count": 2209,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 2156,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 2088,
+            "name": "minecraft:cracked_deepslate_tiles"
+          },
+          {
+            "count": 1731,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 1691,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 1545,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 1437,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 1333,
+            "name": "minecraft:brown_mushroom_block"
+          },
+          {
+            "count": 1087,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 1064,
+            "name": "minecraft:gray_wool"
+          },
+          {
+            "count": 920,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 707,
+            "name": "minecraft:cut_sandstone"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 2154,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 1673,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 1490,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1367,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 863,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 837,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 644,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 582,
+            "name": "minecraft:andesite_slab"
+          },
+          {
+            "count": 433,
+            "name": "minecraft:polished_blackstone_pressure_plate"
+          },
+          {
+            "count": 365,
+            "name": "minecraft:dead_horn_coral_wall_fan"
+          },
+          {
+            "count": 323,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 292,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 273,
+            "name": "minecraft:dead_brain_coral_block"
+          },
+          {
+            "count": 261,
+            "name": "minecraft:deepslate_brick_wall"
+          },
+          {
+            "count": 255,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 252,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 232,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 212,
+            "name": "minecraft:oak_button"
+          },
+          {
+            "count": 201,
+            "name": "minecraft:glow_lichen"
+          },
+          {
+            "count": 187,
+            "name": "minecraft:brown_mushroom_block"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "19042930e735d7cd8afd78f9557f5cd2fd651f073cb3f8319895acd241e32d25"
+      },
+      "source": {
+        "png": {
+          "bytes": 2116139,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区1.png",
+          "sha256": "531f34193b32f71bf9a717c0062e3db060b9342f7d8a32001f71a3f1a30db72b"
+        },
+        "schem": {
+          "bytes": 32928,
+          "path": "巴黎建筑素材/巴黎民居街区1.schem",
+          "sha256": "c6a00001eb8a871b45965c7e3760dfa98e86e76ebccd1db9f1ec790e30e1e58b"
+        }
+      }
+    },
+    {
+      "building_id": "residential-02",
+      "display_name": "巴黎民居街区2",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-02/bottom.png",
+        "overview": "paris-builder/previews/residential-02/overview.png",
+        "top": "paris-builder/previews/residential-02/top.png",
+        "x_max": "paris-builder/previews/residential-02/x_max.png",
+        "x_min": "paris-builder/previews/residential-02/x_min.png",
+        "z_max": "paris-builder/previews/residential-02/z_max.png",
+        "z_min": "paris-builder/previews/residential-02/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 42,
+        "block_entity_types": {
+          "minecraft:lectern": 32,
+          "minecraft:shulker_box": 6,
+          "minecraft:sign": 4
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 12.6454,
+        "dimensions": {
+          "height": 49,
+          "length": 46,
+          "volume": 171304,
+          "width": 76
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789580167337,
+          "Name": "巴黎民居街区2"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {},
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 21662,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 12160,
+        "palette_max": 253,
+        "palette_state_count": 253,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": false,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 149642,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 3516,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 2511,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1092,
+            "name": "minecraft:cracked_deepslate_tiles"
+          },
+          {
+            "count": 900,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 882,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 823,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 775,
+            "name": "minecraft:blackstone"
+          },
+          {
+            "count": 697,
+            "name": "minecraft:smooth_basalt"
+          },
+          {
+            "count": 663,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 649,
+            "name": "minecraft:clay"
+          },
+          {
+            "count": 572,
+            "name": "minecraft:gray_concrete"
+          },
+          {
+            "count": 514,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 426,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 419,
+            "name": "minecraft:brown_mushroom_block"
+          },
+          {
+            "count": 391,
+            "name": "minecraft:diorite"
+          },
+          {
+            "count": 362,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 357,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 316,
+            "name": "minecraft:gray_concrete_powder"
+          },
+          {
+            "count": 245,
+            "name": "minecraft:stripped_birch_wood"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 3507,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 1094,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 610,
+            "name": "minecraft:cracked_deepslate_tiles"
+          },
+          {
+            "count": 494,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 442,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 419,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 378,
+            "name": "minecraft:clay"
+          },
+          {
+            "count": 362,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 303,
+            "name": "minecraft:brown_mushroom_block"
+          },
+          {
+            "count": 267,
+            "name": "minecraft:bone_block"
+          },
+          {
+            "count": 237,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 221,
+            "name": "minecraft:polished_blackstone_pressure_plate"
+          },
+          {
+            "count": 205,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 183,
+            "name": "minecraft:birch_slab"
+          },
+          {
+            "count": 159,
+            "name": "minecraft:smooth_basalt"
+          },
+          {
+            "count": 143,
+            "name": "minecraft:blackstone"
+          },
+          {
+            "count": 131,
+            "name": "minecraft:granite"
+          },
+          {
+            "count": 130,
+            "name": "minecraft:gray_concrete"
+          },
+          {
+            "count": 120,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 116,
+            "name": "minecraft:smooth_sandstone_stairs"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "7aaebefa2c19b3bae09c0b2c953488b56137e018f71065e2485a631a58c3a699"
+      },
+      "source": {
+        "png": {
+          "bytes": 1931268,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区2.png",
+          "sha256": "ad309310ab20a86eb341d33a27501f51e89955cf14facba6f6759e558f2c9380"
+        },
+        "schem": {
+          "bytes": 12748,
+          "path": "巴黎建筑素材/巴黎民居街区2.schem",
+          "sha256": "6cf3e5d76f30154c823b0be07717101243b2cc789db5ef63a44e8670353bb2c7"
+        }
+      }
+    },
+    {
+      "building_id": "residential-03",
+      "display_name": "巴黎民居街区3",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-03/bottom.png",
+        "overview": "paris-builder/previews/residential-03/overview.png",
+        "top": "paris-builder/previews/residential-03/top.png",
+        "x_max": "paris-builder/previews/residential-03/x_max.png",
+        "x_min": "paris-builder/previews/residential-03/x_min.png",
+        "z_max": "paris-builder/previews/residential-03/z_max.png",
+        "z_min": "paris-builder/previews/residential-03/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 97,
+        "block_entity_types": {
+          "minecraft:banner": 2,
+          "minecraft:beehive": 21,
+          "minecraft:lectern": 38,
+          "minecraft:shulker_box": 29,
+          "minecraft:sign": 7
+        },
+        "create_block_count": 12,
+        "create_states": [
+          "create:cut_calcite_wall[east=tall,north=tall,south=low,up=true,waterlogged=false,west=tall]"
+        ],
+        "data_version": 3955,
+        "density_percent": 16.1018,
+        "dimensions": {
+          "height": 50,
+          "length": 34,
+          "volume": 340000,
+          "width": 200
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789580291583,
+          "Name": "巴黎民居街区3"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "bees": 21
+          },
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 54746,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 26475,
+        "palette_max": 539,
+        "palette_state_count": 539,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 285254,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 12676,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 7198,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 3197,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 2267,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 2030,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1977,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1653,
+            "name": "minecraft:diorite"
+          },
+          {
+            "count": 1492,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 1304,
+            "name": "minecraft:stone"
+          },
+          {
+            "count": 1301,
+            "name": "minecraft:white_stained_glass"
+          },
+          {
+            "count": 1150,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 1144,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 1021,
+            "name": "minecraft:clay"
+          },
+          {
+            "count": 998,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 737,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 722,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 601,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 592,
+            "name": "minecraft:gray_wool"
+          },
+          {
+            "count": 568,
+            "name": "minecraft:deepslate_coal_ore"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 6901,
+            "name": "minecraft:stone_bricks"
+          },
+          {
+            "count": 4475,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1622,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 1130,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 740,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 632,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 588,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 533,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 354,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 350,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 335,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 328,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 326,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 296,
+            "name": "minecraft:cobbled_deepslate_slab"
+          },
+          {
+            "count": 288,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 284,
+            "name": "minecraft:clay"
+          },
+          {
+            "count": 283,
+            "name": "minecraft:birch_fence"
+          },
+          {
+            "count": 265,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 249,
+            "name": "minecraft:deepslate_tile_slab"
+          },
+          {
+            "count": 241,
+            "name": "minecraft:diorite"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "87f1c83ec43a69387f123921147b1dbaf4eceb70aab666f55053418d0f29e719"
+      },
+      "source": {
+        "png": {
+          "bytes": 2496465,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区3.png",
+          "sha256": "b1fab399ad4c4dc8e8ee64ad5dae0c6a83d81d59d6c858665f0558236d6db26e"
+        },
+        "schem": {
+          "bytes": 25035,
+          "path": "巴黎建筑素材/巴黎民居街区3.schem",
+          "sha256": "266ab02fe7d010a56a0f22f5d0ec4dec0c06b8a246e2abcdc12f1cf0921e7a39"
+        }
+      }
+    },
+    {
+      "building_id": "residential-04-oblique",
+      "display_name": "巴黎民居街区4[斜面建筑]",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-04-oblique/bottom.png",
+        "overview": "paris-builder/previews/residential-04-oblique/overview.png",
+        "top": "paris-builder/previews/residential-04-oblique/top.png",
+        "x_max": "paris-builder/previews/residential-04-oblique/x_max.png",
+        "x_min": "paris-builder/previews/residential-04-oblique/x_min.png",
+        "z_max": "paris-builder/previews/residential-04-oblique/z_max.png",
+        "z_min": "paris-builder/previews/residential-04-oblique/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 84,
+        "block_entity_types": {
+          "minecraft:lectern": 20,
+          "minecraft:shulker_box": 24,
+          "minecraft:sign": 40
+        },
+        "create_block_count": 660,
+        "create_states": [
+          "create:cut_calcite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=low,north=low,south=tall,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=low,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=none,south=tall,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=low,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=tall,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=low,north=tall,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]",
+          "create:cut_calcite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=low,up=false,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=tall]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]",
+          "create:cut_calcite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]",
+          "create:cut_diorite_slab[type=bottom,waterlogged=false]",
+          "create:cut_diorite_slab[type=double,waterlogged=false]",
+          "create:cut_diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+        ],
+        "data_version": 3955,
+        "density_percent": 9.2316,
+        "dimensions": {
+          "height": 49,
+          "length": 119,
+          "volume": 647241,
+          "width": 111
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789584741257,
+          "Name": "巴黎民居街区4"
+        },
+        "namespaces": [
+          "create",
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {},
+          "namespaced_keys": [
+            "neoforge:attachments",
+            "supplementaries:antique_ink"
+          ],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 59751,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 24054,
+        "palette_max": 517,
+        "palette_state_count": 517,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": false,
+          "has_unknown_namespaced_nbt": true,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 587490,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 8465,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 5434,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 4949,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 4272,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 3368,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 3255,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 1947,
+            "name": "minecraft:diorite"
+          },
+          {
+            "count": 1746,
+            "name": "minecraft:birch_fence"
+          },
+          {
+            "count": 1705,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 1234,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 1211,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 1162,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 1158,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 1148,
+            "name": "minecraft:deepslate_brick_wall"
+          },
+          {
+            "count": 1109,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 1073,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 1069,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 1045,
+            "name": "minecraft:cracked_deepslate_bricks"
+          },
+          {
+            "count": 824,
+            "name": "minecraft:iron_bars"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 3125,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 2152,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1364,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 1168,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 1012,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 953,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 944,
+            "name": "minecraft:diorite_wall"
+          },
+          {
+            "count": 897,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 725,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 710,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 616,
+            "name": "minecraft:deepslate_brick_wall"
+          },
+          {
+            "count": 544,
+            "name": "minecraft:deepslate"
+          },
+          {
+            "count": 530,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 506,
+            "name": "minecraft:chain"
+          },
+          {
+            "count": 475,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "count": 421,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 403,
+            "name": "minecraft:diorite"
+          },
+          {
+            "count": 388,
+            "name": "minecraft:dark_oak_trapdoor"
+          },
+          {
+            "count": 363,
+            "name": "minecraft:sandstone"
+          },
+          {
+            "count": 337,
+            "name": "minecraft:polished_diorite_slab"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "d6b66e5b23be61def258191a94f8dc0ad0a5a15c78b9a5f12064be8668432f56"
+      },
+      "source": {
+        "png": {
+          "bytes": 2591883,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区4[斜面建筑].png",
+          "sha256": "f47eee19271d724fea3ca9b76842d22ae30038098d0ba0cd0ab72a3d5194b451"
+        },
+        "schem": {
+          "bytes": 33281,
+          "path": "巴黎建筑素材/巴黎民居街区4[斜面建筑].schem",
+          "sha256": "85926d4c806435fee84c7bd51001900695909fee9b9108915533fcacc87dcb8b"
+        }
+      }
+    },
+    {
+      "building_id": "residential-05",
+      "display_name": "巴黎民居街区5",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-05/bottom.png",
+        "overview": "paris-builder/previews/residential-05/overview.png",
+        "top": "paris-builder/previews/residential-05/top.png",
+        "x_max": "paris-builder/previews/residential-05/x_max.png",
+        "x_min": "paris-builder/previews/residential-05/x_min.png",
+        "z_max": "paris-builder/previews/residential-05/z_max.png",
+        "z_min": "paris-builder/previews/residential-05/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 4,
+        "block_entity_types": {
+          "minecraft:lectern": 4
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 15.2289,
+        "dimensions": {
+          "height": 46,
+          "length": 30,
+          "volume": 139380,
+          "width": 101
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789585082099,
+          "Name": "巴黎民居街区5"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {},
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 21226,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 12890,
+        "palette_max": 152,
+        "palette_state_count": 152,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": false,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 118154,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 7130,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 3649,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1539,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 1490,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 1349,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 986,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 732,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 716,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 680,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 450,
+            "name": "minecraft:deepslate_brick_wall"
+          },
+          {
+            "count": 435,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 247,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 212,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 201,
+            "name": "minecraft:mud_bricks"
+          },
+          {
+            "count": 156,
+            "name": "minecraft:warped_hyphae"
+          },
+          {
+            "count": 156,
+            "name": "minecraft:stripped_oak_log"
+          },
+          {
+            "count": 125,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "count": 92,
+            "name": "minecraft:sandstone_stairs"
+          },
+          {
+            "count": 82,
+            "name": "minecraft:light_gray_stained_glass_pane"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 4555,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 1479,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 1398,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 823,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 762,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 715,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 659,
+            "name": "minecraft:birch_trapdoor"
+          },
+          {
+            "count": 441,
+            "name": "minecraft:deepslate_brick_wall"
+          },
+          {
+            "count": 435,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 332,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 204,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 134,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 125,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "count": 78,
+            "name": "minecraft:sandstone_stairs"
+          },
+          {
+            "count": 70,
+            "name": "minecraft:mud_bricks"
+          },
+          {
+            "count": 49,
+            "name": "minecraft:stripped_oak_log"
+          },
+          {
+            "count": 42,
+            "name": "minecraft:iron_door"
+          },
+          {
+            "count": 41,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 40,
+            "name": "minecraft:birch_slab"
+          },
+          {
+            "count": 35,
+            "name": "minecraft:diorite_slab"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "39f99db0e132ffb307ef2486ae754daba0c5eaf133b709441c7b2f4902c7bc4a"
+      },
+      "source": {
+        "png": {
+          "bytes": 2051963,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区5.png",
+          "sha256": "a52d46621a945525d0ef98a2fe3085f1290cd555ee7197aa6eab3ce742fd9a09"
+        },
+        "schem": {
+          "bytes": 6064,
+          "path": "巴黎建筑素材/巴黎民居街区5.schem",
+          "sha256": "fcd7057ee73a99fc8d487248ce931df2d5a2a9d10fd0f30ba31057f0096b3fcd"
+        }
+      }
+    },
+    {
+      "building_id": "residential-06",
+      "display_name": "巴黎民居街区6",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-06/bottom.png",
+        "overview": "paris-builder/previews/residential-06/overview.png",
+        "top": "paris-builder/previews/residential-06/top.png",
+        "x_max": "paris-builder/previews/residential-06/x_max.png",
+        "x_min": "paris-builder/previews/residential-06/x_min.png",
+        "z_max": "paris-builder/previews/residential-06/z_max.png",
+        "z_min": "paris-builder/previews/residential-06/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 27,
+        "block_entity_types": {
+          "minecraft:beehive": 10,
+          "minecraft:lectern": 10,
+          "minecraft:shulker_box": 2,
+          "minecraft:skull": 5
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 19.8177,
+        "dimensions": {
+          "height": 51,
+          "length": 25,
+          "volume": 98175,
+          "width": 77
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789585318633,
+          "Name": "巴黎民居街区6"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {
+            "bees": 10
+          },
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 19456,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 10942,
+        "palette_max": 184,
+        "palette_state_count": 184,
+        "risks": {
+          "custom_head_count": 5,
+          "has_behavior_nbt": true,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 78719,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 4001,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 2886,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 1891,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 1443,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 1360,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 1299,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 836,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 509,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 427,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 378,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 359,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 356,
+            "name": "minecraft:white_stained_glass_pane"
+          },
+          {
+            "count": 349,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 306,
+            "name": "minecraft:cobbled_deepslate_slab"
+          },
+          {
+            "count": 206,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 194,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 194,
+            "name": "minecraft:birch_planks"
+          },
+          {
+            "count": 135,
+            "name": "minecraft:pointed_dripstone"
+          },
+          {
+            "count": 133,
+            "name": "minecraft:birch_trapdoor"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 3212,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "count": 1116,
+            "name": "minecraft:smooth_sandstone"
+          },
+          {
+            "count": 957,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 765,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 530,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 426,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 374,
+            "name": "minecraft:iron_bars"
+          },
+          {
+            "count": 353,
+            "name": "minecraft:polished_deepslate_slab"
+          },
+          {
+            "count": 301,
+            "name": "minecraft:cobbled_deepslate_slab"
+          },
+          {
+            "count": 247,
+            "name": "minecraft:smooth_sandstone_stairs"
+          },
+          {
+            "count": 184,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 182,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 157,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 122,
+            "name": "minecraft:polished_deepslate"
+          },
+          {
+            "count": 116,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 103,
+            "name": "minecraft:cobbled_deepslate_wall"
+          },
+          {
+            "count": 93,
+            "name": "minecraft:dead_brain_coral_wall_fan"
+          },
+          {
+            "count": 93,
+            "name": "minecraft:deepslate_tiles"
+          },
+          {
+            "count": 83,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 82,
+            "name": "minecraft:cobbled_deepslate"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "5ad6739e7423e154fdf7adb00e5d7e21d5885cdbcabbbbdf215e89d02f72e861"
+      },
+      "source": {
+        "png": {
+          "bytes": 1873028,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区6.png",
+          "sha256": "fcef5c18b27592edcf41d4fa7440f7569e9330d583d024fdb490a6f64c6e9a67"
+        },
+        "schem": {
+          "bytes": 7338,
+          "path": "巴黎建筑素材/巴黎民居街区6.schem",
+          "sha256": "7a3eaa87aba1416c5e59bcf59b21784311bb5740bbaa19b63435e417bd2ffa3e"
+        }
+      }
+    },
+    {
+      "building_id": "residential-07",
+      "display_name": "巴黎民居街区7",
+      "previews": {
+        "bottom": "paris-builder/previews/residential-07/bottom.png",
+        "overview": "paris-builder/previews/residential-07/overview.png",
+        "top": "paris-builder/previews/residential-07/top.png",
+        "x_max": "paris-builder/previews/residential-07/x_max.png",
+        "x_min": "paris-builder/previews/residential-07/x_min.png",
+        "z_max": "paris-builder/previews/residential-07/z_max.png",
+        "z_min": "paris-builder/previews/residential-07/z_min.png"
+      },
+      "schematic": {
+        "block_entity_count": 78,
+        "block_entity_types": {
+          "minecraft:shulker_box": 78
+        },
+        "create_block_count": 0,
+        "create_states": [],
+        "data_version": 3955,
+        "density_percent": 20.4401,
+        "dimensions": {
+          "height": 37,
+          "length": 133,
+          "volume": 1722350,
+          "width": 350
+        },
+        "entity_count": 0,
+        "format": "Sponge Schematic v2",
+        "metadata": {
+          "Author": "Klintschijsk",
+          "CreatedBy": "Axiom/6.0.5",
+          "Date": 1789585415413,
+          "Name": "巴黎民居街区7"
+        },
+        "namespaces": [
+          "minecraft"
+        ],
+        "nbt_signals": {
+          "behavior_keys": {},
+          "namespaced_keys": [],
+          "string_namespaces": [
+            "minecraft"
+          ]
+        },
+        "nonair_blocks": 352050,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "orthographic_surface_blocks": 82532,
+        "palette_max": 289,
+        "palette_state_count": 289,
+        "risks": {
+          "custom_head_count": 0,
+          "has_behavior_nbt": false,
+          "has_unknown_namespaced_nbt": false,
+          "risky_base_blocks": []
+        },
+        "root_name": "Schematic",
+        "top_base_blocks": [
+          {
+            "count": 1370300,
+            "name": "minecraft:air"
+          },
+          {
+            "count": 250674,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 11362,
+            "name": "minecraft:cut_sandstone"
+          },
+          {
+            "count": 8118,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 7176,
+            "name": "minecraft:cyan_terracotta"
+          },
+          {
+            "count": 5734,
+            "name": "minecraft:stripped_birch_wood"
+          },
+          {
+            "count": 5714,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 5596,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 5332,
+            "name": "minecraft:deepslate_brick_stairs"
+          },
+          {
+            "count": 4940,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 4616,
+            "name": "minecraft:lodestone"
+          },
+          {
+            "count": 4582,
+            "name": "minecraft:smooth_stone"
+          },
+          {
+            "count": 4106,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 3784,
+            "name": "minecraft:stone_slab"
+          },
+          {
+            "count": 3252,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 3176,
+            "name": "minecraft:iron_trapdoor"
+          },
+          {
+            "count": 3138,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 2112,
+            "name": "minecraft:cyan_stained_glass"
+          },
+          {
+            "count": 1872,
+            "name": "minecraft:oak_door"
+          },
+          {
+            "count": 1770,
+            "name": "minecraft:birch_stairs"
+          }
+        ],
+        "top_surface_base_blocks": [
+          {
+            "count": 29010,
+            "name": "minecraft:white_wool"
+          },
+          {
+            "count": 5714,
+            "name": "minecraft:smooth_stone_slab"
+          },
+          {
+            "count": 5076,
+            "name": "minecraft:deepslate_brick_stairs"
+          },
+          {
+            "count": 4940,
+            "name": "minecraft:tuff"
+          },
+          {
+            "count": 4670,
+            "name": "minecraft:sandstone_wall"
+          },
+          {
+            "count": 4616,
+            "name": "minecraft:lodestone"
+          },
+          {
+            "count": 4582,
+            "name": "minecraft:smooth_stone"
+          },
+          {
+            "count": 3784,
+            "name": "minecraft:stone_slab"
+          },
+          {
+            "count": 3400,
+            "name": "minecraft:andesite"
+          },
+          {
+            "count": 2984,
+            "name": "minecraft:deepslate_brick_slab"
+          },
+          {
+            "count": 2816,
+            "name": "minecraft:deepslate_bricks"
+          },
+          {
+            "count": 1190,
+            "name": "minecraft:oak_door"
+          },
+          {
+            "count": 1008,
+            "name": "minecraft:oak_trapdoor"
+          },
+          {
+            "count": 858,
+            "name": "minecraft:lever"
+          },
+          {
+            "count": 828,
+            "name": "minecraft:birch_slab"
+          },
+          {
+            "count": 596,
+            "name": "minecraft:tripwire_hook"
+          },
+          {
+            "count": 552,
+            "name": "minecraft:dead_tube_coral_wall_fan"
+          },
+          {
+            "count": 532,
+            "name": "minecraft:mushroom_stem"
+          },
+          {
+            "count": 426,
+            "name": "minecraft:cyan_terracotta"
+          },
+          {
+            "count": 394,
+            "name": "minecraft:birch_stairs"
+          }
+        ],
+        "validation": {
+          "checks": {
+            "all_block_references_in_palette": true,
+            "decoded_block_count_matches_volume": true,
+            "offset_has_three_values": true,
+            "palette_ids_contiguous_from_zero": true,
+            "palette_max_covers_palette": true,
+            "positive_dimensions": true
+          },
+          "invalid_block_references": 0,
+          "status": "PASS"
+        },
+        "version": 2,
+        "voxel_state_hash": "e17140c92dd748749cd66bfb8bd820be44a452cd36bad2f1c44f4895161b3f36"
+      },
+      "source": {
+        "png": {
+          "bytes": 1361705,
+          "image": {
+            "height": 991,
+            "mode": "RGBA",
+            "width": 1920
+          },
+          "path": "巴黎建筑素材/巴黎民居街区7.png",
+          "sha256": "b1969ddf5620e1449b00652610acd255ad08a17f6854bc2c2367ca791385a98d"
+        },
+        "schem": {
+          "bytes": 40083,
+          "path": "巴黎建筑素材/巴黎民居街区7.schem",
+          "sha256": "39c40162a8f0f5da76eb5db8d9f6b339d3be2eb74697540774ff685c87831256"
+        }
+      }
+    }
+  ],
+  "generator_version": "0.1.0",
+  "pair_count": 14,
+  "pairing_rule": "same UTF-8 filename stem with .png and .schem extensions",
+  "schema_version": "0.1.0",
+  "source_directory": "巴黎建筑素材"
+}
