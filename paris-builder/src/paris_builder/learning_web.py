@@ -1166,6 +1166,17 @@ class WorkflowReviewRequest(BaseModel):
     review: dict
 
 
+@app.post('/api/workflow/restore-best')
+def workflow_restore_best(body: WorkflowBuildRequest):
+    with workflow_lock:
+        if any(job.get('run') == body.run and job['status'] in ('queued', 'running', 'stopping') for job in jobs.values()):
+            raise HTTPException(409, '请等待当前阶段执行结束再恢复候选')
+        try:
+            return atelier_workflow.restore_best(design_run(body.run))
+        except (ValueError, KeyError) as error:
+            raise HTTPException(409, str(error)) from None
+
+
 @app.post('/api/workflow/review')
 def workflow_review(body: WorkflowReviewRequest):
     folder = design_run(body.run)

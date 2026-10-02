@@ -24,6 +24,63 @@ GEOMETRY_CHECKS = ('style_typology', 'plot_topology', 'body_proportions', 'floor
                    'opening_grid', 'roof_section', 'roof_body_ratio', 'eave_ridge', 'attic_volume')
 DETAIL_CHECKS = ('opening_shape', 'window_joinery', 'surround_sill_lintel', 'doors_shopfronts',
                 'balconies_rails', 'bands_cornice', 'material_state', 'junctions')
+SPLIT_REVIEW_POLICY = 'split-v3'
+QUALITY_CHECKS = ('style_character', 'composition', 'storey_expression',
+                  'material_coherence', 'detail_craft', 'all_direction_readability')
+
+
+def validate_quality_checks(candidate, passing=False):
+    checks = candidate.get('quality_checks')
+    if not isinstance(checks, dict) or set(checks) != set(QUALITY_CHECKS):
+        raise ValueError('Quality review requires exactly six visual questions')
+    for key, check in checks.items():
+        if (not isinstance(check, dict) or check.get('status') not in ('pass', 'fail', 'uncertain')
+                or not isinstance(check.get('observation'), str) or not check['observation'].strip()):
+            raise ValueError('Quality question needs an observation: ' + key)
+        if passing and check['status'] != 'pass':
+            raise ValueError('Unresolved visual quality: ' + key)
+
+
+def validate_conformance_artifact(group, stage, passing):
+    from .architectural_conformance import validate
+    artifact = next((a for a in group if a['kind'] == 'architectural_conformance'), None)
+    schematic = next((a for a in group if a['kind'] == 'schematic'), None)
+    plan_item = next((a for a in group if a['kind'] in ('concept', 'assembly_plan')), None)
+    if artifact is None or schematic is None or plan_item is None:
+        raise ValueError('Split review requires measured conformance, export and plan')
+    plan = _read(plan_item)
+    report = validate(_read(artifact), schematic['path'], plan, stage=stage, recompute=passing)
+    # Recompute before promotion: a hand-edited report cannot turn invalid geometry
+    # into a software pass even if its registered hash has been replaced.
+    if passing:
+        if report['status'] != 'PASS':
+            failures = [c for c in report['checks'] if c.get('required') and c['status'] != 'pass']
+            raise ValueError('Measured conformance is unresolved: ' + json.dumps(failures, ensure_ascii=False))
+    return report
+
+
+def source_states_required(task, stage=None):
+    """Final reference-corner details need evidence from their actual source states."""
+    intent = task.get('intent', {})
+    return ((stage or task['stage']) in ('tier3', 'delivery') and
+            (task.get('source_state_policy') == 'source-special-v1' or
+             intent.get('form') == 'corner_house' and
+             intent.get('detail_profile') == 'reference_haussmann'))
+
+
+def validate_source_state_artifact(task, group, passing=True):
+    if not source_states_required(task):
+        return None
+    from .source_state_evidence import validate
+    items = {a['kind']: a for a in group}
+    needed = {'schematic', 'generation_manifest', 'source_state_evidence'}
+    if not needed <= set(items):
+        raise ValueError('Final reference details require source-state evidence and generation manifest')
+    report = validate(_read(items['source_state_evidence']), items['schematic']['path'],
+                      _read(items['generation_manifest']), required=True, recompute=True)
+    if passing and report['status'] != 'PASS':
+        raise ValueError('Source-state details are unresolved: ' + str(report.get('failures', report)))
+    return report
 
 
 def validate_architectural_checks(task, candidate):
@@ -172,6 +229,8 @@ def validate_review(task, review):
             group = [a for a in artifacts if a['candidate'] == candidate]
             if not needed.issubset({a['kind'] for a in group}):
                 raise ValueError('Missing required artifact kinds: ' + str(needed - {a['kind'] for a in group}))
+            if review['decision'] == 'pass':
+                validate_source_state_artifact(task, group)
             for a in group:
                 if a['kind'] == 'technical_validation' and _read(a).get('status') != 'PASS':
                     raise ValueError('Technical validation failed')
@@ -199,6 +258,17 @@ def validate_review(task, review):
             if a['kind'] == 'views':
                 rendered_by_candidate[a['candidate']] = set(_read(a))
         for r in reviews:
+            if task.get('review_policy') == SPLIT_REVIEW_POLICY:
+                group = [a for a in artifacts if a['candidate'] == r.get('id')]
+                passing = review['decision'] == 'pass' and r.get('decision') == 'pass'
+                validate_conformance_artifact(group, stage, passing)
+                # Software rejects skip model calls; there is no invented perception.
+                software_reject = (review.get('reviewer_type') == 'software'
+                                   and review['decision'] == 'reject'
+                                   and review.get('scope') == 'deterministic_conformance')
+                if software_reject:
+                    continue
+                validate_quality_checks(r, passing=passing)
             expected = rendered_by_candidate.get(r.get('id'), set(VIEWS))
             if set(r.get('view_observations', {})) != expected or not all(r['view_observations'].values()):
                 raise ValueError('Every view requires an observation')
@@ -247,6 +317,7 @@ def validate_review(task, review):
         technical = _read(next(a for a in artifacts if a['kind'] == 'technical_validation'))
         if technical.get('status') != 'PASS':
             raise ValueError('Delivery technical validation failed')
+        validate_source_state_artifact(task, artifacts)
     if stage in ('frameworks', 'facades') and count > 1 and review.get('selected') not in candidates:
         raise ValueError('Select a reviewed candidate')
     # A stage cannot advance on a candidate its own visual review rejected; the
@@ -254,11 +325,16 @@ def validate_review(task, review):
     # least-bad candidate through the gate. A rejection itself must always be
     # recordable, so these advancement gates apply only to a passing review.
     if review['decision'] != 'reject':
+        if task.get('review_policy') == SPLIT_REVIEW_POLICY and stage in ('frameworks', 'facades', 'tier2', 'tier3'):
+            selected_id = review.get('selected') if stage in ('frameworks', 'facades') else None
+            chosen = next((r for r in review.get('candidates', []) if r.get('id') == selected_id), None)
+            if chosen is None or chosen.get('decision') != 'pass':
+                raise ValueError('Selected candidate was not passed by the split review')
         if count > 1 and review.get('selected'):
             chosen = next((r for r in review.get('candidates', []) if r.get('id') == review['selected']), None)
             if chosen is None or chosen.get('decision') != 'pass':
                 raise ValueError('Selected candidate was not passed by the visual review: ' + str(review['selected']))
-        if stage == 'frameworks':
+        if stage == 'frameworks' and task.get('review_policy') != SPLIT_REVIEW_POLICY:
             selected = next(r for r in review.get('candidates', []) if r['id'] == review['selected'])
             reason = score_gate_failure(selected.get('scores', []), score_profile(task))
             if reason:

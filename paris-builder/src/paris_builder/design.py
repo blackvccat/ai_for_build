@@ -72,6 +72,8 @@ class HousePlan:
     entrance_fraction: float | None = None
     roof_height: int | None = None
     detail_profile: str | None = None
+    #: Architectural grouping is a design choice, separate from the source kit.
+    composition_profile: str | None = None
     #: Pan coupé: how many cells of the corner are cut back. This is geometry the operator
     #: can ask for and the planning model should be able to choose, so it is a first-class
     #: field instead of a constant buried inside one profile implementation.
@@ -81,7 +83,7 @@ class HousePlan:
         result = {'form': self.form, 'facade': self.scheme, 'width': self.width,
                   'depth': self.depth, 'storeys': self.storeys, 'seed': self.seed}
         result.update({k: getattr(self, k) for k in ('bay_pitch', 'entrance_fraction', 'roof_height',
-                                                     'detail_profile', 'chamfer')
+                                                     'detail_profile', 'chamfer', 'composition_profile')
                        if getattr(self, k) is not None})
         return result
 
@@ -213,7 +215,7 @@ def _cut_opening(scene: Scene, wall: Wall, opening) -> None:
                 scene.put(bx, by, bz, PANE_BACKING, 'reveal')
 
 
-def build(plan: HousePlan, scene: Optional[Scene] = None, tier: int = 3) -> tuple:
+def build(plan: HousePlan, scene: Optional[Scene] = None, tier: int = 3, work_dir=None) -> tuple:
     """Build one house from a plan. Returns (scene, manifest).
 
     `tier` is the refinement level the brief requires, and it gates the technique layer
@@ -228,12 +230,21 @@ def build(plan: HousePlan, scene: Optional[Scene] = None, tier: int = 3) -> tupl
     Geometry is never gated by the tier. A tier is how much of the design is *built out*,
     not how much of the building exists, and gating geometry on a tier is the mistake
     that once hid the crown and cornice from the framework review.
+
+    `work_dir` is only used by detail profiles that assemble from the v4 atlas kit
+    (`atlas_street1`): the assembler needs a directory for derived pieces and the
+    assembly report. The procedural path builds entirely in memory and ignores it.
     """
     if plan.detail_profile == 'reference_haussmann':
         from .haussmann_reference import build as build_reference
         if scene is not None:
             raise ValueError('Reference profile builds a single independent plot')
         return build_reference(plan, tier)
+    if plan.detail_profile == 'atlas_street1':
+        from . import atlas_street1
+        if scene is not None:
+            raise ValueError('atlas_street1 builds its own scene from the kit')
+        return atlas_street1.build_from_plan(plan, work_dir=work_dir, tier=tier)
     structure, context = structure_layer.build(plan.form, plan.width, plan.depth,
                                                plan.storeys, plan.seed)
     x0, x1, z0, z1, rng, roof_style = context
@@ -349,7 +360,7 @@ def build(plan: HousePlan, scene: Optional[Scene] = None, tier: int = 3) -> tupl
 
 def plan_for(form: str, seed: int = 1900, scheme: Optional[str] = None,
              width: Optional[int] = None, depth: Optional[int] = None,
-             storeys: Optional[int] = None, bay_pitch=None, entrance_fraction=None, roof_height=None, detail_profile=None, chamfer=None) -> HousePlan:
+             storeys: Optional[int] = None, bay_pitch=None, entrance_fraction=None, roof_height=None, detail_profile=None, chamfer=None, composition_profile=None) -> HousePlan:
     """A sensible plan for a form, with measured defaults.
 
     Defaults come from the measured sources: frontage 8..14 and depth 20..35 is the
@@ -361,11 +372,37 @@ def plan_for(form: str, seed: int = 1900, scheme: Optional[str] = None,
         raise ValueError('roof_height must be 5..9')
     if entrance_fraction is not None and not 0 <= entrance_fraction <= 1:
         raise ValueError('entrance_fraction must be 0..1')
-    if detail_profile not in (None, 'reference_haussmann'):
+    if detail_profile not in (None, 'reference_haussmann', 'atlas_street1'):
         raise ValueError('Unknown detail profile')
-    if detail_profile and (form not in ('street_house', 'corner_house')
-                           or not width or not depth or width < 23 or depth < 24):
+    if composition_profile is not None and detail_profile != 'atlas_street1':
+        raise ValueError('composition_profile requires atlas_street1')
+    if detail_profile == 'atlas_street1':
+        from .atlas_composition import MODES
+        composition_profile = composition_profile or 'grouped_pavilions'
+        if composition_profile not in MODES:
+            raise ValueError('Unknown composition profile')
+    if detail_profile == 'reference_haussmann' and (form not in ('street_house', 'corner_house')
+                                                    or not width or not depth or width < 23 or depth < 24):
         raise ValueError('Reference Haussmann needs one street_house or corner_house, width >=23, depth >=24')
+    if detail_profile == 'atlas_street1':
+        # 塔亭 + 最少开间 5/4 推出最小体量：北翼 10+18+6=34，西翼 11+14+6=31（任意相位）。
+        if form != 'corner_house':
+            raise ValueError("atlas_street1 needs form='corner_house'（塔亭+两翼转角体量）")
+        minimum_width, minimum_depth = ((38, 36) if composition_profile == 'grouped_pavilions'
+                                         else (34, 31))
+        if not width or not depth or width < minimum_width or depth < minimum_depth:
+            raise ValueError('atlas_street1 %s needs width >= %d and depth >= %d '
+                             '（塔亭 + 最少开间 5/4，含分组柱和外凸预算）' % (
+                                 composition_profile, minimum_width, minimum_depth))
+        for name, value in (('storeys', storeys), ('bay_pitch', bay_pitch),
+                            ('chamfer', chamfer), ('roof_height', roof_height)):
+            if value is not None:
+                raise ValueError('atlas_street1 件库自带层序与节距，不支持 %s 参数' % name)
+        from .atlas_street1 import (composition_bays_within, BAY_START_NORTH,
+                                    BAY_START_WEST, MIN_BAYS_NORTH, MIN_BAYS_WEST, RHYTHM)
+        phase = seed % len(RHYTHM)
+        composition_bays_within(BAY_START_NORTH, width, phase, MIN_BAYS_NORTH, composition_profile)
+        composition_bays_within(BAY_START_WEST, depth, phase, MIN_BAYS_WEST, composition_profile)
     rng = random.Random(seed)
     if width is None or depth is None:
         if form == 'slope_terrace':
@@ -405,7 +442,8 @@ def plan_for(form: str, seed: int = 1900, scheme: Optional[str] = None,
     return HousePlan(form=form, scheme=scheme or DEFAULT_SCHEME[form], width=width,
                      depth=depth, storeys=storeys, seed=seed, bay_pitch=bay_pitch,
                      entrance_fraction=entrance_fraction, roof_height=roof_height,
-                     detail_profile=detail_profile, chamfer=chamfer)
+                     detail_profile=detail_profile, chamfer=chamfer,
+                     composition_profile=composition_profile)
 
 
 def matrix(forms: Optional[List[str]] = None, schemes: Optional[List[str]] = None,

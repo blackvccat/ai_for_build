@@ -17,7 +17,8 @@ from .cancellation import checkpoint, on_interrupt
 #: correctly reported "no technique_library id-stamp registry exists in this module set",
 #: which is why 34 repaired generator versions never called a single library technique.
 MODULES = ('design.py', 'house.py', 'facade.py', 'technique.py', 'haussmann_reference.py',
-           'technique_library.py')
+           'technique_library.py', 'atlas_assembly.py', 'atlas_composition.py',
+           'atlas_street1.py', 'atlas_street1_frame.py', 'atlas_street1_composed.py')
 STAGES = ('frameworks', 'facades', 'tier2', 'tier3')
 WORKER = ROOT / 'tools/generator_worker.py'
 
@@ -170,12 +171,30 @@ def repair_generator(task, folder, review, key, model, emit=None):
                 'module_roles': {'design.py': 'generic assembly and generic roof', 'house.py': 'structure and levels',
                     'facade.py': 'opening composition', 'technique.py': 'block decoration',
                     'haussmann_reference.py': 'reference_haussmann profile ONLY; inactive without that profile'}}
+            atlas = task.get('intent', {}).get('detail_profile') == 'atlas_street1'
+            if atlas:
+                context['module_roles'].update({
+                    'atlas_composition.py': 'Shared grouped bay, level and projection layout; no blocks',
+                    'atlas_street1.py': 'atlas_street1 profile dispatch, source level order and budget',
+                    'atlas_street1_frame.py': 'Tier0/1 realistic relief massing in four ordinary materials',
+                    'atlas_street1_composed.py': 'Tier2/3 grouped source-piece assembly',
+                    'atlas_assembly.py': 'Source-backed piece replay, rotation and finite stamp auditing',
+                })
+                context['layer_contract'] = {
+                    'massing_tier01': '写实骨相：前凸基座/勒脚、凸出体、真窗洞进深、阳台挑板、叠涩檐口、'
+                                     '曼萨德、坡面老虎窗小屋、转角塔亭与帽；四种普通素材质，不放源件',
+                    'detail_tier23': '框架获审后才装配完整源库；使用 Assembler 的来源回放、原样状态及有限覆盖审计',
+                    'order': '后续修复须保留已审 composition；改变布局必须 rollback_stage=frameworks 并重新评审',
+                }
             proposal, receipt = run_json(key, model, json.dumps({'brief': task['brief'], 'intent': task['intent'],
                 'failed_stage': task['stage'], 'validation_feedback': feedback,
                 'design_language': task['brief'].get('design_language'),
+                'active_profile_contract': context['layer_contract'] if atlas else None,
                 'instruction': 'Diagnose and FIX the ACTIVE generator implementation. First call generator_source_map, '
                 'and read_generator_source; use search_generator_source when needed. Trace design.build and detail_profile dispatch '
-                'to identify code actually used by this plan. Audit visual criticism against source geometry; future-tier '
+                'to identify code actually used by this plan. Follow active_profile_contract for the atlas stage boundaries '
+                'and its Assembler source-audit path; source stamps never belong in its tier0/1 bare massing. '
+                'Audit visual criticism against source geometry; future-tier '
                 'decoration absence is not a defect. Return JSON diagnosis, reason, rollback_stage '
                 '(frameworks|facades|tier2|tier3), edits [{file,before,after}]. Each before must be exact UNIQUE source '
                 'text. This is a general architecture synthesis system, not a fixed Paris template engine. '

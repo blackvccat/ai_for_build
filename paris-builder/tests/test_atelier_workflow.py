@@ -154,7 +154,8 @@ class AtelierWorkflowTests(unittest.TestCase):
                 'references':references,'review_template':{'candidates':[template]}}
         with patch('paris_builder.providers.MultimodalClient', return_value=client), \
                 patch.object(a,'summary',return_value=data), patch.object(a,'plans',return_value=[('frame-1',{})]), \
-                patch.object(w,'submit_review') as submit, patch.object(w,'advance'):
+                patch.object(w,'submit_review') as submit, patch.object(w,'advance'), \
+                patch.object(a,'retain_candidate_review'):
             a.agent_review(self.root,'fixture-key','fixture-model')
         review = submit.call_args.args[1]
         self.assertEqual(set(review['candidates'][0]['view_observations']),set(w.VIEWS))
